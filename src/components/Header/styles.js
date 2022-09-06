@@ -8,6 +8,7 @@ export const Container = styled.header`
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   padding: 0 4rem;
 

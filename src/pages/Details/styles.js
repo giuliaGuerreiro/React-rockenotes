@@ -22,6 +22,9 @@ export const Content = styled.div`
   max-width: 55rem;
   margin: 6.5rem auto 0;
 
+  display: flex;
+  flex-direction: column;
+
   > button:first-child {
     align-self: end;
   }
@@ -34,6 +37,7 @@ export const Content = styled.div`
   }
 
   > p {
+    text-align: justify;
     font-size: 1.6rem;
     font-weight: normal;
 
@@ -47,6 +51,7 @@ export const Content = styled.div`
 
 export const Links = styled.ul`
   list-style: none;
+  
   > li { 
     margin-bottom: 1.2rem;
     

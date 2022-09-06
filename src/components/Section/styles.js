@@ -9,9 +9,9 @@ export const Container = styled.section`
     font-weight: normal;
     color: ${ ({ theme }) => theme.COLORS.GRAY_100 };
   
-    border-bottom: ${ ({ theme }) => `1px solid ${theme.COLORS.GRAY_100}` };
+    border-bottom: ${ ({ theme }) => `1px solid ${theme.COLORS.BACKGROUND_700}` };
   
     padding-bottom: 1.6rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 2.4rem;
   }
 `;
